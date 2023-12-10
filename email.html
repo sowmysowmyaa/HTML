@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    
+
+    <title>Email Validation</title>
+
+
+  </head>
+<center>
+  <body onload="document.form1.text1.focus()">
+
+    <div class="mail">
+	<br><br><br>
+
+      <h2>Input an email address</h2>
+
+      <form name="form1" action="#">
+
+        <ul>
+
+          <input type="text" name="text1" />
+
+         <br>
+		 <br>
+
+          <li class="validate">
+
+            <input type="submit" name="validate" value="Validate" onclick="ValidateEmail(document.form1.text1)"/>
+
+          </li>
+
+       <br>
+
+        </ul>
+
+      </form>
+
+    </div>
+
+    <script src="email.js"></script>
+</center>
+  </body>
+
+</html>
